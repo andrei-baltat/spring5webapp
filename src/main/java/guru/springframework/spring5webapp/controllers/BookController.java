@@ -22,6 +22,7 @@ public class BookController {
 
         model.addAttribute("books", bookRepository.findAll());
 
+        // returneaza list.html
         return "books/list";
     }
 }
